@@ -131,6 +131,7 @@ def main_handle(user, passwd, step, sckey):
 
 main_handle('18826074901', 'qwe123456', '19877', '')
 
+'''
 # 推送server
 def push_wx(sckey, desp=""):
     """
@@ -152,6 +153,7 @@ def push_wx(sckey, desp=""):
             print(f"[{now}] 推送成功。")
         else:
             print(f"[{now}] 推送失败：{json_data['errno']}({json_data['errmsg']})")
+'''
 
 """
 sckey = 0
